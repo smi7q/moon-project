@@ -1,15 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background: linear-gradient(#200016,#10001f);
+    background: linear-gradient(#200016, #10001f);
     height: 100vh;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
     color: aliceblue; 
 }
@@ -24,34 +24,33 @@ header {
     margin: 30px;
 }
 
-header .logo{
+header .logo {
     font-size: 30px;
     text-transform: uppercase;
 }
 
-header ul{
+header ul {
     display: flex;
     justify-content: center;
     align-items: center;
     list-style: none;
-
 }
+
 header ul li {
     margin: 27px;
 }
 
-header ul li a{
+header ul li a {
     padding: 6px 15px;
     border-radius: 20px;
 }
 
-header ul li a:hover, .btn-Active{
+header ul li a:hover, .btn-Active {
     background-color: #fff;
     color: #200016;
 }
 
-
-.main{
+.main {
     position: relative;
     height: 100vh;
     width: 100%;
@@ -61,13 +60,13 @@ header ul li a:hover, .btn-Active{
     overflow: hidden;
 }
 
-.main ::after{
+.main::after {
     content: '';
     position: absolute;
     bottom: 0;
     height: 100px;
     width: 100%;
-    background: linear-gradient(to top,#200016,transparent);
+    background: linear-gradient(to top, #200016, transparent);
 }
 
 .main img {
@@ -77,24 +76,24 @@ header ul li a:hover, .btn-Active{
     object-fit: cover;
 }
 
-#moon{
+#moon {
     mix-blend-mode: screen;
     transform: translateY(80px);
 }
 
-.novil{
+.novil {
     color: #fff;
     font-size: 20px;
     text-transform: uppercase;
     transform: translateY(-130px);
-    
+    transition: font-size 0.2s ease; /* Smooth font size transition */
 }
 
-.content{
+.content {
     color: white;
     padding: 30px;
-    
 }
+
 .content h2 {
     margin: 20px;
     font-size: 30px;
